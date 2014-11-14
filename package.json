@@ -1,0 +1,34 @@
+{
+  "name": "module-name",
+  "version": "10.3.1",
+  "description": "An example module to illustrate the usage of a package.json",
+  "author": "Your Name <you.name@example.org>",
+  "scripts": {
+    "test": "",
+    "start": "node app.js",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed",
+    "prepublish": ""
+  },
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "mediregs",
+    "scrape",
+    "ebook"
+  ],
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "pe-epub": "^0.3.7",
+    "request": "^2.48.0"
+  },
+  "devDependencies": {},
+  "private": true,
+  "license": "MIT"
+}
